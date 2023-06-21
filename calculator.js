@@ -11,7 +11,11 @@ const calculator = {
     divide(a, b) {
         return a / b;
     },
-    power: (a,b) => a / b,
+    power: (a,b) => a / b, 
+
+    power2(a,b){
+        return Math.pow(a,b);
+    }
 }
 
 
